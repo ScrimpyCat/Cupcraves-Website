@@ -8,6 +8,7 @@
   <link href="{{ asset('_css/home.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/gallery.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/menu.css') }}" rel="stylesheet" media="screen, projection">
+  <link href="{{ asset('_css/testimonials.css') }}" rel="stylesheet" media="screen, projection">
   <script src="{{ asset('_js/jquery-1.11.1.js') }}"></script>
   <script src="{{ asset('_js/gallery.js') }}"></script>
   <meta name="viewport" content="initial-scale=1.0" />
@@ -62,11 +63,12 @@
       </ul>
     </section>
     <div class="frost-underline"></div>
-    <section id="testimonials">
-      <section>
+    <section id="testimonials" class="clearfix">
+      <blockquote>
         <p>"I hired Cupcraves (Jessica) for a duel birthday cake and cupcakes on the side, the cake was moist and looked fantastic, and the cupcake had rolos on top and were so velvety smooth, they were barely staying on the table until cake time. Very professional and at her low cost price I would highly recommend her to anyone. Thank you so much Jessica."</p>
         <p>-Janice Hanson.</p>
-      </section>
+      </blockquote>
+      <img src="_images/cupcakes/stylized/cupcake-character-point.png">
     </section>
   </article>
 
