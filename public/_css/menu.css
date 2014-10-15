@@ -29,6 +29,12 @@
 	list-style-image: url('../_images/cupcakes/stylized/cupcake3-rough-small.png');
 }
 
+#menu ul li:last-child {
+	list-style: none;
+	float: right;
+	margin-right: 10px
+}
+
 #menu a {
 	font-family: 'Chalk';
 	font-size: 4em;

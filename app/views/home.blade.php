@@ -58,6 +58,7 @@
         <li><a href="#">Caramel Slice</a></li>
         <li><a href="#">ShortBread</a></li>
         <li><a href="#">Lolly Bags</a></li>
+        <li><img src="_images/cupcakes/stylized/cupcake-character-eat.png"></li>
       </ul>
     </section>
     <div class="frost-underline"></div>
