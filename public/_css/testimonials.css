@@ -1,0 +1,24 @@
+#testimonials blockquote {
+	background-color: #7bc6cf;
+	color: #9befa4;
+    border: 6px solid;
+    max-width: 400px;
+    float: left;
+    /*margin: 15px;*/
+}
+
+#testimonials blockquote * {
+	color: #fff;
+	padding: 10px;
+	/*float: left;*/
+}
+
+#testimonials blockquote p {
+	font-family: Arial;
+}
+
+
+#testimonials img {
+	float: right;
+	margin-right: 15px;
+}

@@ -1,0 +1,84 @@
+/*
+scheme:
+#ef9be6
+#9be6ef
+#e6ef9b
+#9befa4
+*/
+
+body {
+	background-color: #ef9be6;
+	color: #000;
+    background-image: url('../_images/cupcakes/stylized/background.png');
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+.frost-underline {
+    min-height: 47px;
+    background-repeat: repeat;
+}
+
+section {
+	padding: 10px;
+}
+
+.frost-underline:nth-of-type(3n+1) {
+    background-image: url('../_images/cupcakes/stylized/frost1.png');
+}
+
+article section:nth-of-type(3n+2) {
+    background-color: #ef9be6;
+}
+
+.frost-underline:nth-of-type(3n+2) {
+    background-image: url('../_images/cupcakes/stylized/frost2.png');
+}
+
+.frost-underline:nth-of-type(3n+1) {
+    background-color: #9be6ef;
+}
+
+.frost-underline:nth-of-type(3n+3) {
+    background-image: url('../_images/cupcakes/stylized/frost3.png');
+}
+
+article section:nth-of-type(3n+3) {
+    background-color: #9be6ef;
+}
+
+.frost-underline:nth-of-type(3n+2) {
+    background-color: #e6ef9b;
+}
+
+article section:nth-of-type(3n+4) {
+    background-color: #e6ef9b;
+}
+
+#intro blockquote {
+	background-color: #7bc6cf;
+	color: #9befa4;
+    border: 6px solid;
+    max-width: 400px;
+    float: left;
+}
+
+#intro blockquote * {
+	color: #fff;
+	padding: 10px;
+	/*float: left;*/
+}
+
+#intro blockquote h2, p {
+	font-family: Arial;
+}
+
+#intro img {
+	margin-top: 50px;
+	margin-right: 20px;
+	float: right;
+}
+
+#intro {
+	margin: 10px;
+}
