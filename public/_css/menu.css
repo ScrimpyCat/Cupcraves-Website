@@ -21,12 +21,20 @@
     margin-right: 20px;
 }
 */
-#menu ul li:nth-of-type(odd) {
+#menu ul li:nth-of-type(4n+1) {
 	list-style-image: url('../_images/cupcakes/stylized/cupcake2-rough-small.png');
 }
 
-#menu ul li:nth-of-type(even) {
+#menu ul li:nth-of-type(4n+2) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake1-rough-small.png');
+}
+
+#menu ul li:nth-of-type(4n+3) {
 	list-style-image: url('../_images/cupcakes/stylized/cupcake3-rough-small.png');
+}
+
+#menu ul li:nth-of-type(4n+4) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake4-rough-small.png');
 }
 
 #menu ul li:last-child {
