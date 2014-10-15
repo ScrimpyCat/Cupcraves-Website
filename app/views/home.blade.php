@@ -17,7 +17,6 @@
   <h1>Cupcraves<a href="/index.htm" title="home"></a></h1>
   
   <!-- Navagation Menu --> 
-    @include('/layouts/nav_main') 
   </header>
 
   <!-- Body -->
@@ -36,6 +35,7 @@
     <section id="gallery">
       <img src="_images/cupcakes/vanilla-pink.jpg">
     </section>
+    <div class="frost-underline"></div>
     <section id="menu">
     <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
       <ul class="clearfix">
@@ -60,6 +60,7 @@
         <li><a href="#">Lolly Bags</a></li>
       </ul>
     </section>
+    <div class="frost-underline"></div>
     <section id="testimonials">
       <section>
         <p>"I hired Cupcraves (Jessica) for a duel birthday cake and cupcakes on the side, the cake was moist and looked fantastic, and the cupcake had rolos on top and were so velvety smooth, they were barely staying on the table until cake time. Very professional and at her low cost price I would highly recommend her to anyone. Thank you so much Jessica."</p>
@@ -69,10 +70,8 @@
   </article>
 
     <!-- Sidebar --> 
-  @include('/layouts/sidebar')
   <!-- Close div body -->
   </div>
   <!-- Footer -->
-  @include('/layouts/footer')
 </body>
 </html>
