@@ -2,3 +2,58 @@ header {
     margin-top: 10px;
     margin-left: 10px;
 }
+
+header nav a {
+    margin-right: -5px;
+}
+
+
+header nav a[title="about"] img:first-child {
+    display: inline;
+}
+
+header nav a[title="about"] img:last-child {
+    display: none;
+}
+
+header nav a[title="about"]:hover img:first-child {
+    display: none;
+}
+
+header nav a[title="about"]:hover img:last-child {
+    display: inline;
+}
+
+
+header nav a[title="order"] img:first-child {
+    display: inline;
+}
+
+header nav a[title="order"] img:last-child {
+    display: none;
+}
+
+header nav a[title="order"]:hover img:first-child {
+    display: none;
+}
+
+header nav a[title="order"]:hover img:last-child {
+    display: inline;
+}
+
+
+header nav a[title="contact"] img:first-child {
+    display: inline;
+}
+
+header nav a[title="contact"] img:last-child {
+    display: none;
+}
+
+header nav a[title="contact"]:hover img:first-child {
+    display: none;
+}
+
+header nav a[title="contact"]:hover img:last-child {
+    display: inline;
+}
