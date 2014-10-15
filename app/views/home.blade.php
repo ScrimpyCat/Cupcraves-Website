@@ -6,6 +6,7 @@
   <!-- <link href="{{ asset('_css/main.css') }}" rel="stylesheet" media="screen, projection"> -->
   <link href="{{ asset('_css/clearfix.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/home.css') }}" rel="stylesheet" media="screen, projection">
+  <link href="{{ asset('_css/nav.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/gallery.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/menu.css') }}" rel="stylesheet" media="screen, projection">
   <link href="{{ asset('_css/testimonials.css') }}" rel="stylesheet" media="screen, projection">
@@ -14,10 +15,8 @@
   <meta name="viewport" content="initial-scale=1.0" />
 </head>
 <body id="blogPage">
-  <header class="blogHeader pageHeader">
-  <h1>Cupcraves<a href="/index.htm" title="home"></a></h1>
-  
-  <!-- Navagation Menu --> 
+  <header>
+    @include('/layouts/logo')
   </header>
 
   <!-- Body -->
