@@ -1,5 +1,4 @@
 <nav>
-	<!-- <img src="_images/cupcakes/stylized/nav-norm.png"> -->
 	<a href="/home" title="home"><img src="_images/cupcakes/stylized/nav-norm-icon.png"></a>
 	<a href="/about" title="about">
 		<img src="_images/cupcakes/stylized/nav-norm-about.png">
