@@ -11,9 +11,13 @@
 |
 */
 
+Route::get('/', function(){
+	return View::make('home');
+});
+
 Route::get('/home', function()
 {
-	return View::make('home');
+	return Redirect::to('/');
 });
 
 Route::get('/about', function()
