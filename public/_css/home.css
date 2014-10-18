@@ -55,22 +55,9 @@ article section:nth-of-type(3n+4) {
     background-color: #e6ef9b;
 }
 
-#intro blockquote {
-	background-color: #7bc6cf;
-	color: #9befa4;
-    border: 6px solid;
+#intro .textbox {
     max-width: 400px;
     float: left;
-}
-
-#intro blockquote * {
-	color: #fff;
-	padding: 10px;
-	/*float: left;*/
-}
-
-#intro blockquote h2, p {
-	font-family: Arial;
 }
 
 #intro img {
