@@ -11,14 +11,22 @@
 |
 */
 
+Route::get('/', function(){
+	return View::make('home');
+});
+
 Route::get('/home', function()
 {
-	return View::make('home');
+	return Redirect::to('/');
 });
 
 Route::get('/about', function()
 {
 	return View::make('about');
+});
+
+Route::get('/contact', function(){
+	return View::make('contact');
 });
 
 Route::get('/register', function()

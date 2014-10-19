@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Chalk';
+	src: url('../_fonts/Return_To_Sender.woff');
+	src: url('../_fonts/Return_To_Sender.ttf') format('truetype');
+}
+
+#menu ul {
+    background-color: #0f1d10;
+    color: #664623;
+    border: 8px solid;
+    padding: 10px 0px 10px 60px;
+}
+/*
+#menu ul li:nth-of-type(odd) {
+    float: left;
+    width: 100%;
+}
+
+#menu ul li:nth-of-type(even) {
+    float: right;
+    margin-right: 20px;
+}
+*/
+#menu ul li:nth-of-type(4n+1) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake2-rough-small.png');
+}
+
+#menu ul li:nth-of-type(4n+2) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake1-rough-small.png');
+}
+
+#menu ul li:nth-of-type(4n+3) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake3-rough-small.png');
+}
+
+#menu ul li:nth-of-type(4n+4) {
+	list-style-image: url('../_images/cupcakes/stylized/cupcake4-rough-small.png');
+}
+
+#menu ul li:last-child {
+	list-style: none;
+	float: right;
+	margin-right: 10px;
+}
+
+#menu a {
+	font-family: 'Chalk';
+	font-size: 4em;
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
