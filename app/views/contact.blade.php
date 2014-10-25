@@ -51,7 +51,7 @@
           Victoria, Australia
         </p>
       </div>
-    <section>
+    </section>
   </article>
 </body>
 </html>

@@ -40,25 +40,25 @@
     <section id="menu">
     <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
       <ul class="clearfix">
-        <li><a href="#">Vanilla</a></li>
-        <li><a href="#">Chocolate</a></li>
-        <li><a href="#">Red Velvet</a></li>
-        <li><a href="#">Cookies and Cream</a></li>
-        <li><a href="#">Jaffa</a></li>
-        <li><a href="#">Mocha</a></li>
-        <li><a href="#">Rolo</a></li>
-        <li><a href="#">Chocolate Sundae</a></li>
-        <li><a href="#">Graduation</a></li>
-        <li><a href="#">Cookie Monster</a></li>
-        <li><a href="#">Minni Mouse</a></li>
-        <li><a href="#">Rainbow</a></li>
-        <li><a href="#">Turtle</a></li>
-        <li><a href="#">Halloween</a></li>
-        <li><a href="#">Easter</a></li>
-        <li><a href="#">Christmas</a></li>
-        <li><a href="#">Caramel Slice</a></li>
-        <li><a href="#">ShortBread</a></li>
-        <li><a href="#">Lolly Bags</a></li>
+        <li><a href="#" class="menu-item">Vanilla</a></li>
+        <li><a href="#" class="menu-item">Chocolate</a></li>
+        <li><a href="#" class="menu-item">Red Velvet</a></li>
+        <li><a href="#" class="menu-item">Cookies and Cream</a></li>
+        <li><a href="#" class="menu-item">Jaffa</a></li>
+        <li><a href="#" class="menu-item">Mocha</a></li>
+        <li><a href="#" class="menu-item">Rolo</a></li>
+        <li><a href="#" class="menu-item">Chocolate Sundae</a></li>
+        <li><a href="#" class="menu-item">Graduation</a></li>
+        <li><a href="#" class="menu-item">Cookie Monster</a></li>
+        <li><a href="#" class="menu-item">Minni Mouse</a></li>
+        <li><a href="#" class="menu-item">Rainbow</a></li>
+        <li><a href="#" class="menu-item">Turtle</a></li>
+        <li><a href="#" class="menu-item">Halloween</a></li>
+        <li><a href="#" class="menu-item">Easter</a></li>
+        <li><a href="#" class="menu-item">Christmas</a></li>
+        <li><a href="#" class="menu-item">Caramel Slice</a></li>
+        <li><a href="#" class="menu-item">ShortBread</a></li>
+        <li><a href="#" class="menu-item">Lolly Bags</a></li>
         <li><img src="_images/cupcakes/stylized/cupcake-character-eat.png"></li>
       </ul>
     </section>

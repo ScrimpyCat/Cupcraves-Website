@@ -44,12 +44,58 @@
 }
 
 #menu a {
-	font-family: 'Chalk';
-	font-size: 4em;
-	color: #fff;
 	text-decoration: none;
 }
 
 #menu a:hover {
 	text-decoration: underline;
+}
+
+#menu * {
+	font-family: 'Chalk';
+	color: #fff;
+}
+
+.menu-item {
+	font-size: 4em;
+}
+
+.menu-item-description {
+	display: none;
+	font-size: 2em;
+	margin-right: 70px;
+	margin-bottom: 10px;
+}
+
+.menu-item-description img {
+	width: 100%;
+	max-width: 600px;
+}
+
+.menu-item-description textarea {
+	background-color: #0f1d10;/*#ef9be6;*/
+	padding: 10px;
+	font-size: 1em;
+	color: #fff;
+	border: 3px solid;
+	max-width: 100%;
+	min-width: 100%;
+	width: 100%;
+	min-height: 4em;
+}
+
+.menu-item-description input[type="number"] {
+	background-color: #0f1d10;
+	padding: 10px;
+	font-size: 1em;
+	color: #fff;
+	border: 3px solid;
+	width: 2.5em;
+	min-height: 1em;
+}
+
+#menu .menu-item-description .excess-order {
+	display: none;
+	color: #f00;
+	float: right;
 }

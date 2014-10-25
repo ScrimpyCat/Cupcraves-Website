@@ -25,6 +25,10 @@ Route::get('/about', function()
 	return View::make('about');
 });
 
+Route::get('/order', function(){
+	return View::make('order');
+});
+
 Route::get('/contact', function(){
 	return View::make('contact');
 });
