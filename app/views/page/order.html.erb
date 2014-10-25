@@ -35,7 +35,6 @@
         </div>
 
         <section id="menu">
-        <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
             <ul class="clearfix">
                 <% @items.each do |item| %>
                     <li id="<%= item.name.gsub(/[ &]/, '-').downcase %>">
