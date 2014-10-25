@@ -38,7 +38,7 @@
         <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
             <ul class="clearfix">
                 <% @items.each do |item| %>
-                    <li id="<%= item.name %>">
+                    <li id="<%= item.name.gsub(/[ &]/, '-').downcase %>">
                         <a class="menu-item"><%= item.name %> <%= number_to_currency(item.price.to_f / 100, :unit => '$') %></a>
                         <div class="menu-item-description">
                             <%= image_tag('cupcakes/' + item.image, :alt => item.name + 'Cupcake Photo') %>

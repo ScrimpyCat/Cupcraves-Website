@@ -17,7 +17,7 @@
     <section id="menu">
         <ul class="clearfix">
             <% @items.each do |item| %>
-                <li><a href="<%= '/order#' + item.name %>" class="menu-item"><%= item.name %></a></li>
+                <li><a href="<%= '/order#' + item.name.gsub(/[ &]/, '-').downcase %>" class="menu-item"><%= item.name %></a></li>
             <% end %>
             <li><%= image_tag('cupcakes/stylized/cupcake-character-eat.png', :alt => 'Cupcake Character Eating') %></li>
         </ul>
