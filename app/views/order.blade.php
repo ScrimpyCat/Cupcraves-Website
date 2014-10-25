@@ -71,75 +71,75 @@
               Amount: <input type="number" name="amount" min="0" value="0"> <div class="excess-order">* Please Contact Us Directly About This Order</div>
             </div>
           </li>
-          <li>
+          <li id="chocolate">
             <a class="menu-item">Chocolate</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="red-velvet">
             <a class="menu-item">Red Velvet</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="cookies-and-cream">
             <a class="menu-item">Cookies and Cream</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="jaffa">
             <a class="menu-item">Jaffa</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="mocha">
             <a class="menu-item">Mocha</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="rolo">
             <a class="menu-item">Rolo</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="chocolate-sundae">
             <a class="menu-item">Chocolate Sundae</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="graduation">
             <a class="menu-item">Graduation</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="cookie-monster">
             <a class="menu-item">Cookie Monster</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="minni-mouse">
             <a class="menu-item">Minni Mouse</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="rainbow">
             <a class="menu-item">Rainbow</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="turtle">
             <a class="menu-item">Turtle</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="halloween">
             <a class="menu-item">Halloween</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="easter">
             <a class="menu-item">Easter</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="christmas">
             <a class="menu-item">Christmas</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="caramel-slice">
             <a class="menu-item">Caramel Slice</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="shortbread">
             <a class="menu-item">ShortBread</a>
             <div class="menu-item-description"></div>
           </li>
-          <li>
+          <li id="lolly-bags">
             <a class="menu-item">Lolly Bags</a>
             <div class="menu-item-description"></div>
           </li>

@@ -41,24 +41,24 @@
     <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
       <ul class="clearfix">
         <li><a href="/order#vanilla" class="menu-item">Vanilla</a></li>
-        <li><a href="#" class="menu-item">Chocolate</a></li>
-        <li><a href="#" class="menu-item">Red Velvet</a></li>
-        <li><a href="#" class="menu-item">Cookies and Cream</a></li>
-        <li><a href="#" class="menu-item">Jaffa</a></li>
-        <li><a href="#" class="menu-item">Mocha</a></li>
-        <li><a href="#" class="menu-item">Rolo</a></li>
-        <li><a href="#" class="menu-item">Chocolate Sundae</a></li>
-        <li><a href="#" class="menu-item">Graduation</a></li>
-        <li><a href="#" class="menu-item">Cookie Monster</a></li>
-        <li><a href="#" class="menu-item">Minni Mouse</a></li>
-        <li><a href="#" class="menu-item">Rainbow</a></li>
-        <li><a href="#" class="menu-item">Turtle</a></li>
-        <li><a href="#" class="menu-item">Halloween</a></li>
-        <li><a href="#" class="menu-item">Easter</a></li>
-        <li><a href="#" class="menu-item">Christmas</a></li>
-        <li><a href="#" class="menu-item">Caramel Slice</a></li>
-        <li><a href="#" class="menu-item">ShortBread</a></li>
-        <li><a href="#" class="menu-item">Lolly Bags</a></li>
+        <li><a href="/order#chocolate" class="menu-item">Chocolate</a></li>
+        <li><a href="/order#red-velvet" class="menu-item">Red Velvet</a></li>
+        <li><a href="/order#cookies-and-cream" class="menu-item">Cookies and Cream</a></li>
+        <li><a href="/order#jaffa" class="menu-item">Jaffa</a></li>
+        <li><a href="/order#mocha" class="menu-item">Mocha</a></li>
+        <li><a href="/order#rolo" class="menu-item">Rolo</a></li>
+        <li><a href="/order#chocolate-sundae" class="menu-item">Chocolate Sundae</a></li>
+        <li><a href="/order#graduation" class="menu-item">Graduation</a></li>
+        <li><a href="/order#cookie-monster" class="menu-item">Cookie Monster</a></li>
+        <li><a href="/order#minni-mouse" class="menu-item">Minni Mouse</a></li>
+        <li><a href="/order#rainbow" class="menu-item">Rainbow</a></li>
+        <li><a href="/order#turtle" class="menu-item">Turtle</a></li>
+        <li><a href="/order#halloween" class="menu-item">Halloween</a></li>
+        <li><a href="/order#easter" class="menu-item">Easter</a></li>
+        <li><a href="/order#christmas" class="menu-item">Christmas</a></li>
+        <li><a href="/order#caramel-slice" class="menu-item">Caramel Slice</a></li>
+        <li><a href="/order#shortbread" class="menu-item">ShortBread</a></li>
+        <li><a href="/order#lolly-bags" class="menu-item">Lolly Bags</a></li>
         <li><img src="_images/cupcakes/stylized/cupcake-character-eat.png"></li>
       </ul>
     </section>
