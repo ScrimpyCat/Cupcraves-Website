@@ -1,0 +1,37 @@
+Gallery.prototype.next = function(){
+    $(this.selector).attr("src", this.images[this.index]);
+    if (++this.index > this.images.length - 1) this.index = 0;
+};
+
+function Gallery(selector, timing, images){
+    this.selector = selector;
+    this.images = images;
+    this.index = 0;
+    this.timer = setInterval(this.next.bind(this), timing);
+};
+
+CupcakeGallery = null;
+$(window).bind('page:change', function(){
+    if ($("#gallery").length != 0)
+    {
+        if (CupcakeGallery == null)
+        {
+            CupcakeGallery = new Gallery("#gallery img", 3000, [
+                "<%= image_path('cupcakes/vanilla-pink.jpg') %>",
+                "<%= image_path('cupcakes/halloween-cupcakes.jpg') %>",
+                "<%= image_path('cupcakes/snowman.jpeg') %>",
+                "<%= image_path('cupcakes/Mini-mouse.JPG') %>",
+                "<%= image_path('cupcakes/graduation.JPG') %>",
+                "<%= image_path('cupcakes/Cookies-and-Cream-Cupcakes.jpg') %>",
+                "<%= image_path('cupcakes/pumpkin-patch-cupcake.jpg') %>",
+                "<%= image_path('cupcakes/red-velvet-cupcake.jpg') %>"
+            ]);
+        }
+    }
+
+    else
+    {
+        clearInterval(CupcakeGallery.timer);
+        CupcakeGallery = null;
+    }
+});

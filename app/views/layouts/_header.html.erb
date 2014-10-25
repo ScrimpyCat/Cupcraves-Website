@@ -1,0 +1,20 @@
+<header>
+    <nav>
+        <%= link_to :home, :title => 'home' do %>
+            <%= image_tag('cupcakes/stylized/nav-norm-icon.png', :alt => 'Cupcraves logo') %>
+        <% end %>
+        <%= link_to :about, :title => 'about' do %>
+            <%= image_tag('cupcakes/stylized/nav-norm-about.png', :alt => 'About') %>
+            <%= image_tag('cupcakes/stylized/nav-highlight-about.png', :alt => 'About Highlighted') %>
+        <% end %>
+        <%= link_to :order, :title => 'order' do %>
+            <%= image_tag('cupcakes/stylized/nav-norm-order.png', :alt => 'Order') %>
+            <%= image_tag('cupcakes/stylized/nav-highlight-order.png', :alt => 'Order Highlighted') %>
+        <% end %>
+        <%= link_to :contact, :title => 'contact' do %>
+            <%= image_tag('cupcakes/stylized/nav-norm-contact.png', :alt => 'Contact') %>
+            <%= image_tag('cupcakes/stylized/nav-highlight-contact.png', :alt => 'Contact Highlighted') %>
+        <% end %>
+        <%= image_tag('cupcakes/stylized/nav-norm-end.png') %>
+    </nav>
+</header>
