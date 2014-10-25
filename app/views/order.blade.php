@@ -12,9 +12,14 @@
   <link href="{{ asset('_css/nav.css') }}" rel="stylesheet" media="screen, projection">
   <script src="{{ asset('_js/jquery-1.11.1.js') }}"></script>
   <script src="{{ asset('_js/menu.js') }}"></script>
+  <script src="{{ asset('_js/order.js') }}"></script>
   <meta name="viewport" content="initial-scale=1.0" />
 </head>
 <body>
+  <div id="cart">
+    <a href="#">Checkout: $0.00</a>
+  </div>
+
   <header>
     @include('/layouts/logo')
   </header>
