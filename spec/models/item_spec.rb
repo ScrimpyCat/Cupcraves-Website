@@ -36,6 +36,17 @@ RSpec.describe Item, :type => :model do
 
             it { is_expected.to_not be_valid }
         end
+
+        context 'id form is already taken' do
+            before {
+                item_with_same_name_id = @item.dup
+                @item.name = 'a & b'
+                item_with_same_name_id.name = 'a---b'
+                item_with_same_name_id.save
+            }
+
+            it { is_expected.to_not be_valid }
+        end
     end
 
     describe 'description' do
