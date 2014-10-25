@@ -20,7 +20,7 @@ Order = {
         if (this.empty()) $("#cart").css("display", "none");
         else
         {
-            $("#cart a").text("Checkout: $" + this.total());
+            $("#cart").text("Checkout: $" + this.total());
             $("#cart").css("display", "inline-block");
         }
     },

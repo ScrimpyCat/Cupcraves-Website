@@ -17,7 +17,7 @@
 </head>
 <body>
   <div id="cart">
-    <a href="#">Checkout: $0.00</a>
+    Checkout: $0.00
   </div>
 
   <header>

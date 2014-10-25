@@ -58,6 +58,8 @@
 
 .menu-item {
 	font-size: 4em;
+	cursor: pointer;
+	cursor: hand;
 }
 
 .menu-item-description {
