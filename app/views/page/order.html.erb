@@ -41,8 +41,12 @@
                     <li id="<%= item.name.gsub(/[ &]/, '-').downcase %>">
                         <a class="menu-item"><%= item.name %> <%= number_to_currency(item.price.to_f / 100, :unit => '$') %></a>
                         <div class="menu-item-description">
-                            <%= image_tag('cupcakes/' + item.image, :alt => item.name + 'Cupcake Photo') %>
-                            <p><%= item.description %></p>
+                            <% if item.image %>
+                                <%= image_tag('cupcakes/' + item.image, :alt => item.name + 'Cupcake Photo') %>
+                            <% end %>
+                            <% if item.description %>
+                                <p><%= item.description %></p>
+                            <% end %>
                             <p>Decoration such as sprinkles, silver balls, flowers can be added if requested. Add-On price will be  subject to request and quoted on enquiry.</p>
                             <p>Would you like a decoration on your cake? Add-on prices upon request</p>
                             <textarea name="instructions"></textarea>
