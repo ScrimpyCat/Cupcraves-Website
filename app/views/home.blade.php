@@ -40,7 +40,7 @@
     <section id="menu">
     <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
       <ul class="clearfix">
-        <li><a href="#" class="menu-item">Vanilla</a></li>
+        <li><a href="/order#vanilla" class="menu-item">Vanilla</a></li>
         <li><a href="#" class="menu-item">Chocolate</a></li>
         <li><a href="#" class="menu-item">Red Velvet</a></li>
         <li><a href="#" class="menu-item">Cookies and Cream</a></li>

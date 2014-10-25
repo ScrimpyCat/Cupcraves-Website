@@ -60,7 +60,7 @@
       <section id="menu">
       <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
         <ul class="clearfix">
-          <li>
+          <li id="vanilla">
             <a class="menu-item">Vanilla $2.50</a>
             <div class="menu-item-description">
               <img src="_images/cupcakes/vanilla-cupcakes-frosting.jpg">

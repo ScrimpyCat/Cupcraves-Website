@@ -17,4 +17,9 @@ $(window).ready(function(){
     $(".menu-item").click(function(){
         Menu.expand(this);
     });
+
+    if (window.location.hash)
+    {
+        Menu.expand(window.location.hash + " .menu-item");
+    }
 });
