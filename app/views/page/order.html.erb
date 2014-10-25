@@ -37,89 +37,19 @@
         <section id="menu">
         <!-- this should be dynamic, PHP inserting what's available from the DB in here -->
             <ul class="clearfix">
-                <li id="vanilla">
-                    <a class="menu-item">Vanilla $2.50</a>
-                    <div class="menu-item-description">
-                        <%= image_tag('cupcakes/vanilla-cupcakes-frosting.jpg', :alt => 'Vanilla Cupcake Photo') %>
-                        <p>Classic vanilla cupcake with a beautiful vanilla buttercream icing.</p>
-                        <p>Decoration such as sprinkles, silver balls, flowers can be added if requested. Add-On price will be  subject to request and quoted on enquiry.</p>
-                        <p>Would you like a decoration on your cake? Add-on prices upon request</p>
-                        <textarea name="instructions"></textarea>
-                        Amount: <input type="number" name="amount" min="0" value="0"> <div class="excess-order">* Please Contact Us Directly About This Order</div>
-                    </div>
-                </li>
-                <li id="chocolate">
-                    <a class="menu-item">Chocolate</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="red-velvet">
-                    <a class="menu-item">Red Velvet</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="cookies-and-cream">
-                    <a class="menu-item">Cookies and Cream</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="jaffa">
-                    <a class="menu-item">Jaffa</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="mocha">
-                    <a class="menu-item">Mocha</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="rolo">
-                    <a class="menu-item">Rolo</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="chocolate-sundae">
-                    <a class="menu-item">Chocolate Sundae</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="graduation">
-                    <a class="menu-item">Graduation</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="cookie-monster">
-                    <a class="menu-item">Cookie Monster</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="minni-mouse">
-                    <a class="menu-item">Minni Mouse</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="rainbow">
-                    <a class="menu-item">Rainbow</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="turtle">
-                    <a class="menu-item">Turtle</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="halloween">
-                    <a class="menu-item">Halloween</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="easter">
-                    <a class="menu-item">Easter</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="christmas">
-                    <a class="menu-item">Christmas</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="caramel-slice">
-                    <a class="menu-item">Caramel Slice</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="shortbread">
-                    <a class="menu-item">ShortBread</a>
-                    <div class="menu-item-description"></div>
-                </li>
-                <li id="lolly-bags">
-                    <a class="menu-item">Lolly Bags</a>
-                    <div class="menu-item-description"></div>
-                </li>
+                <% @items.each do |item| %>
+                    <li id="<%= item.name %>">
+                        <a class="menu-item"><%= item.name %> <%= number_to_currency(item.price.to_f / 100, :unit => '$') %></a>
+                        <div class="menu-item-description">
+                            <%= image_tag('cupcakes/' + item.image, :alt => item.name + 'Cupcake Photo') %>
+                            <p><%= item.description %></p>
+                            <p>Decoration such as sprinkles, silver balls, flowers can be added if requested. Add-On price will be  subject to request and quoted on enquiry.</p>
+                            <p>Would you like a decoration on your cake? Add-on prices upon request</p>
+                            <textarea name="instructions"></textarea>
+                            Amount: <input type="number" name="amount" min="0" value="0"> <div class="excess-order">* Please Contact Us Directly About This Order</div>
+                        </div>
+                    </li>
+                <% end %>
                 <li><%= image_tag('cupcakes/stylized/cupcake-character-eat.png', :alt => 'Cupcake Character Eating') %></li>
             </ul>
         </section>
