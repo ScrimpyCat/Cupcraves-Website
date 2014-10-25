@@ -53,7 +53,14 @@ $(window).ready(function(){
 
         var type = $(this).parent().parent().children(".menu-item").text().split("$");
         Order.add(new Item(type[0].trim(), $(this).val(), type[1], $(this).parent().children("textarea[name='instructions']").val()));
+    });
 
-        Order.total();
+    $(".menu-item-description textarea").change(function(){
+        var type = $(this).parent().parent().children(".menu-item").text().split("$");
+        Order.add(new Item(type[0].trim(), $(this).parent().children("input[name='amount']").val(), type[1], $(this).val()));
+    });
+
+    $("#cart").click(function(){
+        //submit to server and go to checkout page
     });
 });
