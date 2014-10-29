@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+    mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
     scope :controller => :page do
         get '/', :to => :home, :as => 'home'
         get '/about', :to => :about, :as => 'about'
