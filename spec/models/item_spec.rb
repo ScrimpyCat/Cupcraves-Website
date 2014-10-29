@@ -77,28 +77,45 @@ RSpec.describe Item, :type => :model do
         end
     end
 
+    describe "price" do
+        context 'is nil' do
+            before { @item.price = nil }
+            it { is_expected.to be_valid }
+        end
+
+        context 'is negative' do
+            before { @item.price = -1 }
+            it { is_expected.to_not be_valid }
+        end
+
+        context 'is floating point' do
+            before { @item.price = 1.5 }
+            it { is_expected.to_not be_valid }
+        end
+    end
+
     describe 'image' do
         context 'is nil' do
-            before { @item.description = nil }
+            before { @item.image = nil }
             it { is_expected.to be_valid }
         end
 
         context 'is empty' do
-            before { @item.description = '' }
+            before { @item.image = '' }
             it { is_expected.to be_valid }
         end
 
         context 'is too long' do
-            before { @item.description = 'a'*81 }
+            before { @item.image = 'a'*81 }
             it { is_expected.to_not be_valid }
         end
 
         context 'is already taken' do
             before {
-                item_with_same_description = @item.dup
-                item_with_same_description.name << 'a'
-                item_with_same_description.description = item_with_same_description.description.upcase
-                item_with_same_description.save
+                item_with_same_image = @item.dup
+                item_with_same_image.name << 'a'
+                item_with_same_image.image = item_with_same_image.image.upcase
+                item_with_same_image.save
             }
 
             it { is_expected.to be_valid }
