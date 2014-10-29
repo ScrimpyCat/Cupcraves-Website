@@ -5,3 +5,24 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+if Rails.env.development?
+    Item.create!([{
+        :name => 'Vanilla',
+        :price => 250,
+        :image => 'vanilla-cupcakes-frosting.jpg',
+        :description => 'Classic vanilla cupcake with a beautiful vanilla buttercream icing.'
+    }, {
+        :name => 'Chocolate',
+        :price => 100,
+        :image => 'graduation.JPG',
+        :description => 'Blah blah blah blah blah.'
+    }, {
+        :name => 'Cookies & Cream',
+        :price => 100,
+        :image => 'Cookies-and-Cream-Cupcakes.jpg',
+        :description => 'Blah blah blah blah blah.'
+    }, {
+        :name => 'Plain',
+    }])
+end
