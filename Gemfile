@@ -13,6 +13,8 @@ gem 'turbolinks'
 
 gem 'rails_admin', '~> 0.6.5'
 
+gem 'devise'
+
 group :doc do
     # bundle exec rake doc:rails generates the API under doc/api.
     gem 'sdoc', '~> 0.4.0', :require => false

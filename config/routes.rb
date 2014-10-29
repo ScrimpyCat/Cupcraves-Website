@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-	root :to => 'page#home'
+    devise_for :admins
+    root :to => 'page#home'
     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
     scope :controller => :page do
